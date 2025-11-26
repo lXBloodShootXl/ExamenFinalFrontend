@@ -107,6 +107,18 @@
           }
         }
       }
+    },
+    "/api/Proveedores/TodosOrdenes-Proveedores": {
+      "get": {
+        "tags": [
+          "Proveedores"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
     }
   },
   "components": { }
